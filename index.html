@@ -15,12 +15,37 @@
 
     <title>Hello JS</title>
     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="data.js"></script>
   </head>
   <body>
     <section class="container">
       <h1 class="text-center">JavaScript String Method</h1>
       <script>
         myfunction();
+        const products = product.map((item) => {
+          return item.id;
+        });
+        /*
+        // Sync and unique Array Example
+        console.log("products: ", products);
+        let arr = [10, 20, 30, 30, 30, 40, 50, 60, 70];
+        let unique = new Set(arr);
+        console.log("unique", unique);
+        var arr = [55, 44, 3, 3, 3, 3, 2, 34, 3];
+        var unique = [...new Set(arr)];
+        console.log("unique: ", unique);
+        */
+        /*
+        //Async Example//
+        console.log("Start");
+        let Fname = "Shoaib ";
+        let Lname = "Qureshi";
+        let fullName = `${Fname}${Lname}`;
+        setTimeout(function () {
+          console.log("I will run later");
+        }, 5000);
+        console.log("END");
+        */
       </script>
     </section>
 
