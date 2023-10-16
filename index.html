@@ -46,6 +46,72 @@
         }, 5000);
         console.log("END");
         */
+        /*
+       //Filter in JS
+        const prices = product.filter((price) => {
+          // console.log(price.price);
+          if (price.category === "men's clothing") {
+            console.table(price.category);
+          }
+        });
+        */
+        // Find will stop after finding first result like in this example
+        /*
+        const emp = [
+          {
+            name: "Ram",
+            empID: 101,
+          },
+          {
+            name: "Sham",
+            empID: 102,
+          },
+          {
+            name: "Mohan",
+            empID: 103,
+          },
+          {
+            name: "Mohan",
+            empID: 102,
+          },
+          {
+            name: "Mohan",
+            empID: 102,
+          },
+        ];
+
+        const res = emp.find((el) => el.empID === 102);
+        console.log("res: ", res);
+        */
+        const emp = [
+          {
+            name: "Ram",
+            empID: 100,
+          },
+          {
+            name: "Sham",
+            empID: 200,
+          },
+          {
+            name: "Mohan",
+            empID: 503,
+          },
+          {
+            name: "Aam",
+            empID: 803,
+          },
+          {
+            name: "Naam",
+            empID: 184,
+          },
+        ];
+        const TotalSalery = emp.reduce((total, person) => {
+          // console.log("total: ", total);
+          console.log("person: ", person.empID);
+          total += person.empID;
+          return total;
+        }, 0);
+        console.log("TotalSalery: ", TotalSalery);
       </script>
     </section>
 
