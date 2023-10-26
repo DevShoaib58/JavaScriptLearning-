@@ -238,13 +238,39 @@
         // console.log(
         //   name.concat(" is my name" + " and " + `${Friend}` + " is my Friend")
         // );
-        const sentence = "The quick brown fox jumps over the lazy dog.";
-        const word = "fox";
-        console.log(
-          `The word "${word}" ${
-            sentence.includes(word) ? "is" : "is not"
-          } in the sentence`
-        );
+        // const sentence = "The quick brown fox jumps over the lazy dog.";
+        // const word = "Fox";
+        // console.log(
+        //   `The Word ${word} ${
+        //     sentence.includes(word) ? "is" : "is not"
+        //   } in the Sentence`
+        // );
+        // const Sentence = "HELLO I AM A STRING IN UPPER CASE";
+        // console.log(
+        //   Sentence.toLowerCase(),
+        //   "\nNow im Converted in Lower Case "
+        // );
+        //   const word = "You own me 1000";
+        //   const newWord = word.slice("You own me ".length);
+        //   console.log(newWord);
+        //   console.log(typeof newWord);
+        //   const convertIntoNumber = parseInt(newWord);
+        //   console.log(convertIntoNumber);
+        //   console.log(typeof convertIntoNumber);
+        //   You Cant Edit String
+        const arr_marks = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+        for (let i = 0; i < Object.keys(arr_marks).length; i++) {
+          console.log(
+            `These are keys ${Object.keys(arr_marks)[i]} and these are values ${
+              arr_marks[Object.keys(arr_marks)[i]]
+            }`
+          );
+        }
+        // const sum = arr_marks.reduce(
+        //   (accumulator, currentValue) => accumulator + currentValue,
+        //   0
+        // );
+        // console.log(sum / arr_marks.length);
       </script>
     </section>
 
