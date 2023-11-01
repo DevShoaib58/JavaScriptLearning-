@@ -284,14 +284,19 @@
         //   return total + employee;
         // });
         // console.log(sum_of_Salery);
-        let random_number = Math.floor(Math.random() * 2);
+        let random_number = Math.floor(Math.random() * 10);
+        var tries = 0;
         let enteredNumber = prompt("Enter number");
         if (random_number == enteredNumber) {
           console.log("You have Guessed Right Number");
-        } else {
-          console.log("Better Luck Next Time");
+        } else if (random_number < enteredNumber) {
+          console.log("Your guessed Number is Greater then actual number");
+        } else if (random_number > enteredNumber) {
+          console.log("Entered number is less then Guessed Number");
+        } else if (enteredNumber == "") {
+          console.log("Please Enter Number");
         }
-        console.log(random_number);
+        console.log("Correct value is this", random_number);
       </script>
     </section>
 
