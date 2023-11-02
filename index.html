@@ -284,19 +284,50 @@
         //   return total + employee;
         // });
         // console.log(sum_of_Salery);
-        let random_number = Math.floor(Math.random() * 10);
-        var tries = 0;
-        let enteredNumber = prompt("Enter number");
-        if (random_number == enteredNumber) {
-          console.log("You have Guessed Right Number");
-        } else if (random_number < enteredNumber) {
-          console.log("Your guessed Number is Greater then actual number");
-        } else if (random_number > enteredNumber) {
-          console.log("Entered number is less then Guessed Number");
-        } else if (enteredNumber == "") {
-          console.log("Please Enter Number");
+        // let random_number = Math.floor(Math.random() * 10);
+        // var tries = 0;
+        // let enteredNumber = prompt("Enter number");
+        // if (random_number == enteredNumber) {
+        //   console.log("You have Guessed Right Number");
+        // } else if (random_number < enteredNumber) {
+        //   console.log("Your guessed Number is Greater then actual number");
+        // } else if (random_number > enteredNumber) {
+        //   console.log("Entered number is less then Guessed Number");
+        // } else if (enteredNumber == "") {
+        //   console.log("Please Enter Number");
+        // }
+        // console.log("Correct value is this", random_number);
+        // let Sum;
+        // let a = prompt("Please Type Your Message ");
+        // a = parseInt(a);
+        // let b = prompt("Please Type Your Message ");
+        // b = parseInt(b);
+        // Sum = a + b;
+        // document.write(`${Sum}`);
+        // let ask = prompt("What is Your age");
+        // ask = Number.parseInt(ask);
+        // if (ask >= 18) {
+        //   alert("You can Drive");
+        // } else {
+        //   alert("you are not old enough to drive");
+        // }
+        let runAgain = true;
+        const age = (asking) => {
+          return asking >= 18 ? true : false;
+        };
+        while (runAgain) {
+          let asking = prompt("Enter your age");
+          asking = Number.parseInt(asking);
+          if (age(asking)) {
+            // alert("You can Driving");
+            console.log("You can Driving");
+            // location.href = "https://www.google.com/";
+          } else {
+            console.error("You are not eligible for Driving");
+          }
+
+          runAgain = confirm("Do you Want to Run it Again");
         }
-        console.log("Correct value is this", random_number);
       </script>
     </section>
 
