@@ -57,7 +57,7 @@
               empID: 102,
             },
           ];
- 
+
           const res = emp.find((el) => el.empID === 102);
           console.log("res: ", res);
           */
@@ -99,7 +99,7 @@
          //   return total;
          // }, 0);
          // console.log("TotalSalery: ", TotalSalery);
- 
+
          */
 /*
         //Operator in JS
@@ -136,40 +136,40 @@
 // }
 /*
         let n = prompt("Enter Number of Row"); // number of rows in the diamond
- 
+
         // printing the upper half of the diamond
         for (let i = 1; i <= n; i++) {
           let str = ""; // string to store the row
           let space = " "; // string to store the spaces
- 
+
           // adding spaces before the stars
           for (let j = 1; j <= n - i; j++) {
             str += space;
           }
- 
+
           // adding stars
           for (let k = 0; k < 2 * i - 1; k++) {
             str += "*";
           }
- 
+
           console.log(str);
         }
- 
+
         // printing the lower half of the diamond
         for (let i = 1; i <= n - 1; i++) {
           let str = ""; // string to store the row
           let space = " "; // string to store the spaces
- 
+
           // adding spaces before the stars
           for (let j = 0; j < i; j++) {
             str += space;
           }
- 
+
           // adding stars
           for (let k = (n - i) * 2 - 1; k > 0; k--) {
             str += "*";
           }
- 
+
           console.log(str);
         }*/
 /*
@@ -306,4 +306,6 @@
 
 //   runAgain = confirm("Do you Want to Run it Again");
 // }
-document.getElementById("main_section").style.color = "red";
+// document.getElementById("main_section").style.color = "red";
+
+
