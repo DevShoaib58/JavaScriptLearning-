@@ -10,14 +10,10 @@
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   padding: 30px 10%;
 }
 
-.logo {
-  width: 10%;
-  height: auto;
-}
 .nav_link {
 }
 

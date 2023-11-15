@@ -308,4 +308,11 @@
 // }
 // document.getElementById("main_section").style.color = "red";
 
+// document.getElementsByTagName("nav")[0].firstElementChild.style.color = "red"
+// console.log(document.getElementsByTagName("nav")[0].firstElementChild);
+// let homeLink = document.querySelector('.nav_link li a');
 
+// // Change the color
+// homeLink.style.color = 'red'; //
+let hello = document.querySelector('.nav_link li a');
+hello.style.color = 'red';
