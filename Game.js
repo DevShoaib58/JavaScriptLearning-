@@ -23,6 +23,7 @@ p1.then((value) => {
 p2.catch((error) => {
     console.log("Throwing Some Error");
 })
+// if any one of them got error then all_promises wont run 
 // let all_promises = Promise.all([p1, p2])
 let all_promises = Promise.allSettled([p1, p2])
 all_promises.then((value) => {
