@@ -314,5 +314,8 @@
 
 // // Change the color
 // homeLink.style.color = 'red'; //
-let hello = document.querySelector('.nav_link li a');
-hello.style.color = 'red';
+// let hello = document.querySelector('.nav_link li a');
+// let hello = document.getElementsByClassName('.nav_link li a');
+// console.log(nav_link);
+// hello.style.color = 'red';
+
