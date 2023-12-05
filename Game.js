@@ -54,3 +54,24 @@
 // setTimeout(() => {
 //     console.log("Hello World! 5000")
 // }, 5000)
+// Try catch With Finally
+// try {
+//     console.log("Hello try");
+//     console.log(lol);
+// }
+// catch (err) {
+//     console.log(err);
+//     console.log(caught);
+// }
+// finally {
+//     console.log("Im Running anyway");
+// }
+// let p = fetch("https://goweather.herokuapp.com/weather/%7Bcity%7D")
+//     .then((response) => response.json(
+//         console.log(response)
+//     ))
+async function logMovies() {
+    const response = await fetch("http://example.com/movies.json");
+    const movies = await response.json();
+    console.log(movies);
+}
