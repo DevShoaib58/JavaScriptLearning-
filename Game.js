@@ -66,12 +66,19 @@
 // finally {
 //     console.log("Im Running anyway");
 // }
-// let p = fetch("https://goweather.herokuapp.com/weather/%7Bcity%7D")
+// let p = fetch("https://randomuser.me/api/")
 //     .then((response) => response.json(
 //         console.log(response)
 //     ))
-async function logMovies() {
-    const response = await fetch("http://example.com/movies.json");
-    const movies = await response.json();
-    console.log(movies);
-}
+// let p = fetch("https://randomuser.me/api/")
+// p.then((response) => () => { return response.json() })
+//     .then((response) => { response })
+
+fetch("https://randomuser.me/api/")
+    .then((respons) => {
+        respons.json()
+    })
+    .then((data) => {
+        console.log(data);
+    })
+    .catch((error) => { console.log(error) })
