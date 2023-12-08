@@ -117,3 +117,4 @@ const Call_API = async () => {
 //         .then((json) => console.log(json));
 // }
 // post_call();
+localStorage.setItem("Name", "Shoaib Qureshi")
