@@ -71,14 +71,49 @@
 //         console.log(response)
 //     ))
 // let p = fetch("https://randomuser.me/api/")
-// p.then((response) => () => { return response.json() })
-//     .then((response) => { response })
+// p.then((response) => { return response.json() })
+//     .then((response) => { console.log(response) })
+//Fetch API
+// fetch("https://randomuser.me/api/")
+//     .then((respons) => respons.json())
+//     .then((data) => {
+//         console.log(data);
+//     })
+//     .catch((error) => { console.log(error) })
+const Call_API = async () => {
+    let API = await fetch("https://jsonplaceholder.typicode.com/todos/1")
+        .then((response) => response.json())
+        .then((json) => { console.log(json) })
+}
 
-fetch("https://randomuser.me/api/")
-    .then((respons) => {
-        respons.json()
+
+// fetch('https://jsonplaceholder.typicode.com/posts', {
+//     method: 'POST',
+//     headers: {
+//         'Content-type': 'application/json; charset=UTF-8',
+//     },
+//     body: JSON.stringify({
+//         title: 'Shoaib',
+//         body: 'NoBody',
+//         userId: 2,
+//     }),
+// })
+//     .then((response) => response.json())
+//     .then((json) => console.log(json));
+
+const post_call = async () => {
+    let p = await fetch('https://jsonplaceholder.typicode.com/posts', {
+        method: 'POST',
+        body: JSON.stringify({
+            title: 'foo',
+            body: 'bar',
+            userId: 1,
+        }),
+        headers: {
+            'Content-type': 'application/json; charset=UTF-8',
+        },
     })
-    .then((data) => {
-        console.log(data);
-    })
-    .catch((error) => { console.log(error) })
+        .then((response) => response.json())
+        .then((json) => console.log(json));
+}
+post_call();
