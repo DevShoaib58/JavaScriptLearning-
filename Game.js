@@ -117,4 +117,18 @@ const Call_API = async () => {
 //         .then((json) => console.log(json));
 // }
 // post_call();
-localStorage.setItem("Name", "Shoaib Qureshi")
+//Alway add 2 parameter one key and second value in localStorage
+// localStorage.setItem("Name", "Shoaib Qureshi")
+// let key = prompt("Enter Your City Name")
+// let value = prompt("Enter Your City Value")
+// localStorage.setItem(key, value)
+// console.log(`You Entered the City ${key} on value ${value}`)
+// if (key == "Lahore" || key == "Canada") {
+//     localStorage.removeItem(key)
+// }
+// if (key == 0) {
+//     localStorage.clear()
+// }
+// let x = [1, 2, 3, 4, 5]
+// let y = x.filter(n => n % 2 !== 0)
+// console.log('y: ', y);
