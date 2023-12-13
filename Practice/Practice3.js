@@ -16,11 +16,19 @@
 //     console.log(i)
 // }
 /************* Q2 write a Program to Show the Marks of Students using for in Loop in JS? **************/
-let Subject = {
-    Shoaib: 91,
-    Bilal: 88,
-    Umer: 44,
-}
-for (let i = 0; i < Object.keys(Subject).length; i++) {
-    console.log(" Student", Object.keys(Subject)[i] + " who got ", Subject[Object.keys(Subject)[i]], "in Urdu")
-}
+// let Subject = {
+//     Shoaib: 91,
+//     Bilal: 88,
+//     Umer: 44,
+// }
+// for (let key in Subject) {
+//     console.log(key, "got ", Subject[key], "Marks in Physics")
+// }
+// /************* Q3 write Program to display try again till user entered the right number  in JS? **************/
+// let CorrectNumber = 20;
+// let YourNumber;
+// while (YourNumber != CorrectNumber) {
+//     YourNumber = prompt("Enter Your Number")
+//     console.log("Try aging")
+// }
+// console.log(`You Won Correct Number is ${YourNumber}`)
