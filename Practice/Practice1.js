@@ -1,3 +1,6 @@
+// console.log("Console.log");
+// console.error("Console.error");
+// console.warn("Console.warn");
 /************* Q1 & Q2 Create a variable of type string and try to add it in Number in also Show their Types in JS? **************/
 // let Fname = "Shoaib";
 // console.log('Fname: ', typeof (Fname));
