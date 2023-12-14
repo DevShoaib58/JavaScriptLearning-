@@ -32,3 +32,8 @@
 //     console.log("Try aging")
 // }
 // console.log(`You Won Correct Number is ${YourNumber}`)
+// /************* Q4 write Function to to find the mean of 5 number  in JS? **************/
+// const mean = (a, b, c, d, e) => {
+//     return (a + b + c + d + e) / 4
+// }
+// console.log(mean(2, 3, 4, 5, 6));
