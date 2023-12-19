@@ -74,3 +74,19 @@
 // // let Result = (EnterAge >= 18) ? "You Are Eligible to Drive " : "You Are Not Eligible to Drive "
 // let Result = (EnterAge >= 18 ? `You Are Eligible to Drive ${EnterAge}` : `You Are Not Eligible to Drive ${EnterAge}`)
 // console.log('Result: ', Result);
+
+/************* Q6 Write a Program to see if 2 number are equal to 100 or the sum of the 2 numbers are equal to 100  in JS? **************/
+// const isequal = (a, b) => {
+//     if (a === 100 || b === 100 || a + b === 100) {
+//         console.log("yes its true");
+//     } else {
+//         console.log("No its Not")
+//     }
+// }
+// isequal(50, 50);
+// let a = Number(prompt("Enter a"))
+// let b = Number(prompt("Enter b"))
+// const isequal2 = (a, b) => {
+//     a === 100 || b === 100 || a + b === 100 ? console.log("yes one of the number or the sum of two numbers are equal to 100") : console.log("Not its not")
+// }
+// isequal2(a, b)
