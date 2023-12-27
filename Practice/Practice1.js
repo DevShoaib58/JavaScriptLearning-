@@ -27,3 +27,22 @@
 //     pretentious: "attempting to impress by affecting greater importance or merit than is actually possessed.",
 // }
 // console.log("Dictionary.Hello :", Dictionary.Hello);
+
+
+/************* Q5 Type Conversion in  in JS? **************/
+// const str = String(454)
+// console.log('str: ', typeof (str));
+// console.log('Date(): ', Date());
+// console.log('Date(): ', String(Date()));
+// let a = Day().toString()
+// console.log('a: ', a);
+// let apple = 50;
+// let banana = parseInt("7");
+// let Total = apple + banana;
+// let Total1 = apple / banana;
+// let Total2 = apple % banana;
+// console.log('Total: adding', Total);
+// console.log('Total1: dividing ', parseFloat(Total1));
+// console.log('Total1: dividing ', Total1.toFixed(33));
+// console.log('Total2: dividing ', Total2);
+
