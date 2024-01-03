@@ -8,8 +8,8 @@
 //     console.log(`You Have Entered the Wrong Number your Entered Number is ${EnteredNumber} and Random Number is ${RandomNumber} `)
 // }
 // }
-const Game = () => {
-    let RandomNumber = parseInt(Math.random() * 10);
+const Game = (attempts = 0) => {
+    let RandomNumber = parseInt(Math.random() * 5);
     // let attempts = 0;
     let EnteredNumber = prompt("Enter Number")
     // while (RandomNumber != EnteredNumber) {
@@ -19,16 +19,16 @@ const Game = () => {
         console.log("Entered number is Less then Radom Number");
         console.log("Random Number", RandomNumber);
         console.log("Entered Number", EnteredNumber);
-        Game();
+        Game(attempts + 1);
     }
     else if (RandomNumber < EnteredNumber) {
         console.log("Random Number is Greater then Random Number");
-        console.log("Entered Number", RandomNumber);
+        console.log("Random Number", RandomNumber);
         console.log("Entered Number", EnteredNumber);
-        Game();
+        Game(attempts + 1);
     } else {
         console.log(`You have Entered the Right Number ${EnteredNumber} and ${RandomNumber}`)
-        // console.log(attempts)
+        console.log("Number of Attempts", attempts)
 
     }
 
