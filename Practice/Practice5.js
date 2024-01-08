@@ -43,3 +43,66 @@
 //     fact = fact * n
 // }
 // console.log(`Factorial of Number ${n} is ${fact}`)
+/******************* Leap year in JS *******************/
+// let yr = prompt("Enter the Year")
+// yr = Number.parseInt(yr)
+// if (yr % 4 === 0 || yr % 100 != 0 || yr % 400 == 0) {
+//     console.log(`${yr} is a Leap Year`)
+// }
+// else {
+//     console.log(`${yr} is an Leap Year`)
+// }
+/*******************Q5 Checking leap year or not *******************/
+// let yr = prompt('Please Enter a Year')
+// yr = Number.parseInt(yr)
+// if ((yr % 4 == 0 && yr % 100 != 0
+//     || yr % 400 == 0)) {
+//     document.write("<h2>It's A Leap Year</h2>");
+// } else {
+//     document.write("<h2>Not A Leap Year</h2>");
+// }
+/*******************Q6 Finding largest and smallest element from array *******************/
+let arr = [5, 10, 3, 8, -2,
+    15, 1, 12, 6, 4]
+let min = Math.min(...arr);
+let max = Math.max(...arr);
+console.log(`Smallest Element In Array Is :${min}`);
+console.log(`Largest Element In Array Is :${max}`);
+/*******************Q7 Sorting An Array *******************/
+let num = [5, 10, 3, 8, -2,
+    15, 1, 12];
+num.sort(function (a, b) {
+    return a - b;
+});
+console.log(`Sorted Array Is :${num}`);
+/*******************Q8 Searching an element in array *******************/
+let search = 10;
+let found = false;
+for (let i = 0; i < num.length; i++) {
+    if (search === num[i]) {
+        found = true;
+        break;
+    }
+}
+if (found) {
+    console.log(`Element Found`);
+} else {
+    console.log("Element Not Found")
+}
+
+/*******************Q9 Define Simple Function in JS *******************/
+// a = prompt("Enter Number a")
+// a = Number.parseInt(a)
+// b = prompt("Enter Number b")
+// b = Number.parseInt(b)
+// function sum(a, b) {
+//     document.write(a + b)
+// }
+// sum(a, b)
+
+/*******************Q10 Sort an array in JS *******************/
+let array = [10, 20, 6, 1, 5, 8, 11, 22, 55, 44, 99, 11, 54, 31, 38, 35, 44, 21, 4, 69]
+let result = array.sort((x, y) => { return x - y }
+    // let result = array.sort((x, y) => { return y - x }
+)
+console.log(result)
