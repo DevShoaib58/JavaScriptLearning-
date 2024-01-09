@@ -27,13 +27,13 @@
 // let arr_num = [10, 20, 30, 40, 50, 60, 7, 8, 9]
 // let square = arr_num.map((n) => n * n)
 // console.log(`Square Of Given Numbers Are:${square}`)
-/************* Q4 Find the fictorail of given array in JS? **************/
+/************* Q4 Find the factorial of given array in JS? **************/
 // let number = [1, 2, 3, 4, 5, 6]
 // let fact = number.reduce(function (n1, n2) {
 //     return n1 * n2;
 // }
 //     , 1)
-// console.log(`Fictorial Of The Given Numbers Is :${fact}`)
+// console.log(`Factorial Of The Given Numbers Is :${fact}`)
 // let n = prompt("Enter any Number")
 // n = Number.parseInt(n)
 // console.log("Input Number is ", n)
@@ -62,33 +62,33 @@
 //     document.write("<h2>Not A Leap Year</h2>");
 // }
 /*******************Q6 Finding largest and smallest element from array *******************/
-let arr = [5, 10, 3, 8, -2,
-    15, 1, 12, 6, 4]
-let min = Math.min(...arr);
-let max = Math.max(...arr);
-console.log(`Smallest Element In Array Is :${min}`);
-console.log(`Largest Element In Array Is :${max}`);
+// let arr = [5, 10, 3, 8, -2,
+//     15, 1, 12, 6, 4]
+// let min = Math.min(...arr);
+// let max = Math.max(...arr);
+// console.log(`Smallest Element In Array Is :${min}`);
+// console.log(`Largest Element In Array Is :${max}`);
 /*******************Q7 Sorting An Array *******************/
-let num = [5, 10, 3, 8, -2,
-    15, 1, 12];
-num.sort(function (a, b) {
-    return a - b;
-});
-console.log(`Sorted Array Is :${num}`);
+// let num = [5, 10, 3, 8, -2,
+//     15, 1, 12];
+// num.sort(function (a, b) {
+//     return a - b;
+// });
+// console.log(`Sorted Array Is :${num}`);
 /*******************Q8 Searching an element in array *******************/
-let search = 10;
-let found = false;
-for (let i = 0; i < num.length; i++) {
-    if (search === num[i]) {
-        found = true;
-        break;
-    }
-}
-if (found) {
-    console.log(`Element Found`);
-} else {
-    console.log("Element Not Found")
-}
+// let search = 10;
+// let found = false;
+// for (let i = 0; i < num.length; i++) {
+//     if (search === num[i]) {
+//         found = true;
+//         break;
+//     }
+// }
+// if (found) {
+//     console.log(`Element Found`);
+// } else {
+//     console.log("Element Not Found")
+// }
 
 /*******************Q9 Define Simple Function in JS *******************/
 // a = prompt("Enter Number a")
@@ -101,8 +101,30 @@ if (found) {
 // sum(a, b)
 
 /*******************Q10 Sort an array in JS *******************/
-let array = [10, 20, 6, 1, 5, 8, 11, 22, 55, 44, 99, 11, 54, 31, 38, 35, 44, 21, 4, 69]
-let result = array.sort((x, y) => { return x - y }
-    // let result = array.sort((x, y) => { return y - x }
-)
-console.log(result)
+// let array = [10, 20, 6, 1, 5, 8, 11, 22, 55, 44, 99, 11, 54, 31, 38, 35, 44, 21, 4, 69]
+// let result = array.sort((x, y) => { return x - y }
+//     // let result = array.sort((x, y) => { return y - x }
+// )
+// console.log(result)
+
+/******************* Finding Smallest and Largest Number in Array in JS *******************/
+// let full_array = [20, 64, 4, 1, 321, 48, 153, 51, 34, 0, 31, 841, 3]
+// let small_number = Math.min(...full_array)
+// let large_number = Math.max(...full_array)
+// console.log("Your Array is here", small_number)
+// console.log("Your Array is here", large_number)
+
+/******************* Calculate the BMI of Person and Show the Highet BMI in JS *******************/
+let ShoaibWeight = 72
+let ShoaibHeight = 82
+let BilalWeight = 80
+let BilalHeight = 90
+let ShoaibBMI = ShoaibWeight / ShoaibHeight ** 2
+let BilalBMI = BilalWeight / BilalHeight ** 2
+console.log("Bilal BMI", BilalBMI)
+console.log("Shoaib BMI", ShoaibBMI)
+if (BilalBMI > ShoaibBMI) {
+    console.log(`Bilal Has Higher BMI`, BilalBMI)
+} else {
+    console.log(`Shoaib Has Higher BMI`, ShoaibBMI)
+}
