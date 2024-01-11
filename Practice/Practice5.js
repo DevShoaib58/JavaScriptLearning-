@@ -61,13 +61,14 @@
 // } else {
 //     document.write("<h2>Not A Leap Year</h2>");
 // }
-/*******************Q6 Finding largest and smallest element from array *******************/
-// let arr = [5, 10, 3, 8, -2,
-//     15, 1, 12, 6, 4]
-// let min = Math.min(...arr);
-// let max = Math.max(...arr);
-// console.log(`Smallest Element In Array Is :${min}`);
-// console.log(`Largest Element In Array Is :${max}`);
+/******************* Find Smallest Number From Array in JS *******************/
+// let num = [10, 50, 51, 0, 41, 4, 5, 0, -1, 9]
+// let smallest_number = Math.min(...num)
+// let largest_number = Math.min(...num)
+// console.log("Length of Array", num.length)
+// console.log("Number on 4 index is 41 =", num[4])
+// console.log("Smallest Number in Array", smallest_number_number)
+// console.log("Largest Number in Array", largest_number)
 /*******************Q7 Sorting An Array *******************/
 // let num = [5, 10, 3, 8, -2,
 //     15, 1, 12];
@@ -76,6 +77,7 @@
 // });
 // console.log(`Sorted Array Is :${num}`);
 /*******************Q8 Searching an element in array *******************/
+// let num = [10, 50, 60, 4, 0, 25, 5, 90, 70, 405, 8]
 // let search = 10;
 // let found = false;
 // for (let i = 0; i < num.length; i++) {
@@ -114,17 +116,20 @@
 // console.log("Your Array is here", small_number)
 // console.log("Your Array is here", large_number)
 
-/******************* Calculate the BMI of Person and Show the Highet BMI in JS *******************/
-let ShoaibWeight = 72
-let ShoaibHeight = 82
-let BilalWeight = 80
-let BilalHeight = 90
-let ShoaibBMI = ShoaibWeight / ShoaibHeight ** 2
-let BilalBMI = BilalWeight / BilalHeight ** 2
-console.log("Bilal BMI", BilalBMI)
-console.log("Shoaib BMI", ShoaibBMI)
-if (BilalBMI > ShoaibBMI) {
-    console.log(`Bilal Has Higher BMI`, BilalBMI)
-} else {
-    console.log(`Shoaib Has Higher BMI`, ShoaibBMI)
-}
+/******************* Calculate the BMI of Person and Show the Highest BMI in JS *******************/
+// let ShoaibWeight = 72
+// let ShoaibHeight = 82
+// let BilalWeight = 80
+// let BilalHeight = 90
+// let ShoaibBMI = ShoaibWeight / ShoaibHeight ** 2
+// let BilalBMI = BilalWeight / BilalHeight ** 2
+// console.log("Bilal BMI", BilalBMI)
+// console.log("Shoaib BMI", ShoaibBMI)
+// if (BilalBMI > ShoaibBMI) {
+//     console.log(`Bilal Has Higher BMI`, BilalBMI)
+// } else {
+//     console.log(`Shoaib Has Higher BMI`, ShoaibBMI)
+// }
+
+/******************* Search Element form Array in JS *******************/
+let marks = [20, 54, 68, 2, 0, 15, 45, 43]

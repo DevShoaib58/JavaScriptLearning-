@@ -8,6 +8,8 @@
 //     console.log(`You Have Entered the Wrong Number your Entered Number is ${EnteredNumber} and Random Number is ${RandomNumber} `)
 // }
 // }
+
+// More Accurate Version
 // const Game = (attempts = 0) => {
 //     let RandomNumber = parseInt(Math.random() * 5);
 //     // let attempts = 0;

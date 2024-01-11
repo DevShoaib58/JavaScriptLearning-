@@ -18,3 +18,18 @@
 //         console.log("These are odd numbers", result)
 //     }
 // })
+// let array_of_number = [50, 4, 5, 16, 2, 4, 2, 894, 548, 51, 51, 1, 213, 6, 21]
+// let result1 = array_of_number.sort()
+// console.log('Simple Sorting by JS: ', result1);
+// let result = array_of_number.sort((a, b) => {
+//     return b - a
+// })
+// console.log("Sorting by Higher to Lower", result)
+
+
+
+
+// let numbers = [50, 4, 5, 16, 2, 4, 2, 894, 548, 51, 51, 1, 213, 6, 21];
+// numbers.sort((a, b) => a - b);
+
+// console.log("Sorting By Lower to Higher", numbers);
