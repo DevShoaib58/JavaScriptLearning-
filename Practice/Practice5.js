@@ -91,7 +91,21 @@
 // } else {
 //     console.log("Element Not Found")
 // }
-
+// let arr = [4, 5, 294, 14, 414, 51, 5, 64, 51, 542]
+// let search = prompt("Enter Number to Search")
+// search = Number.parseInt(search)
+// let found = false
+// for (i = 0; i < arr.length; i++) {
+//     if (search === arr[i]) {
+//         found = true;
+//         break;
+//     }
+// }
+// if (found) {
+//     console.log(`Your Requested Number ${search} is Found `)
+// } else {
+//     console.log(`Your Requested Number ${search} is not Found `)
+// }
 /*******************Q9 Define Simple Function in JS *******************/
 // a = prompt("Enter Number a")
 // a = Number.parseInt(a)
@@ -131,5 +145,11 @@
 //     console.log(`Shoaib Has Higher BMI`, ShoaibBMI)
 // }
 
-/******************* Search Element form Array in JS *******************/
-let marks = [20, 54, 68, 2, 0, 15, 45, 43]
+/******************* Asyn Function in JS *******************/
+// console.log("Start")
+// setTimeout(function (hello) {
+//     console.log("Hello i'm Late")
+
+// }, 1000)
+// console.log("End")
+/*******************  Function in JS *******************/
