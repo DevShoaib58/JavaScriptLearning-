@@ -29,6 +29,6 @@
 // } else {
 //     alert("Try These Colors ,red,yellow,blue")
 // }
-let changeColor = prompt("Enter Your color")
-console.log('changeColor: ', changeColor);
-document.body.style.backgroundColor = changeColor
+// let changeColor = prompt("Enter Your color")
+// console.log('changeColor: ', changeColor);
+// document.body.style.backgroundColor = "#fefefe"
