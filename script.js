@@ -1,4 +1,3 @@
-
 // myfunction();
 // const products = product.map((item) => {
 //   return item.id;
@@ -319,3 +318,30 @@
 // console.log(nav_link);
 // hello.style.color = 'red';
 
+// function hello() {
+//   let a = 10;
+// }
+// hello();
+
+// console.log("call a value", a);
+// function varScoping() {
+//   var x = 1;
+
+//   if (true) {
+//     var x = 2;
+//     console.log(x); // will print 2
+//   }
+
+//   console.log(x); // will print 2
+// }
+
+// function letScoping() {
+//   let x = 1;
+
+//   if (true) {
+//     let x = 2;
+//     console.log(x); // will print 2
+//   }
+
+//   console.log(x); // will print 1
+// }
