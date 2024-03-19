@@ -345,3 +345,85 @@
 
 //   console.log(x); // will print 1
 // }
+// let a = 10;
+// let b = 5;
+// let c = 10;
+// let d = 10;
+// console.log("a =", a);
+// console.log("b =", b);
+// console.log("a+b:", a + b);
+// console.log("a-b:", a - b);
+// console.log("a*b:", a * b);
+// console.log("a/b:", a * b);
+// console.log("b++:", b++);
+// console.log("b:", b);
+// console.log("++d:", ++d);
+// console.log("--c:", --c);
+// console.log("a--:", a--);
+// console.log("a:", a);
+/*******************Q10 Input a Number and Check is it Multilple of 5 or not in JS *******************/
+// let number = prompt("Enter your Number");
+// number = parseInt(number);
+// console.log(typeof number);
+// if (number >= 80 && number <= 100) {
+//   console.log("You Got A Grade and Your Marks = ", number);
+// } else if (number >= 70 && number <= 79) {
+//   console.log("You Got B Grade and Your Marks = ", number);
+// } else if (number >= 60 && number <= 69) {
+//   console.log("You Got C Grade and Your Marks = ", number);
+// } else if (number >= 50 && number <= 59) {
+//   console.log("You Got D Grade and Your Marks = ", number);
+// } else if (number >= 0 && number <= 49) {
+//   console.log("You Got F Grade and Your Marks = ", number);
+// }
+
+/*******************Q10 For Loop in JS *******************/
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i);
+// }
+// console.log("Loop has Ended");
+
+/*******************Q10 Calculate the sum of 1 to 10 JS *******************/
+// let sum = 0;
+// for (i = 1; i <= 5; i++) {
+//   sum = sum + i;
+// }
+// console.log(sum);
+/*******************Q10 Guess the Number game in JS *******************/
+// generate a secret number between 1 and 10
+// const MIN = 1;
+// const MAX = 10;
+
+// let secretNumber = Math.floor(Math.random() * (MAX - MIN + 1)) + MIN;
+// console.log(secretNumber);
+// let guesses = 0; // for storing the number of guesses
+// let hint = ""; // for storing hint
+// let number = 0;
+// do {
+//   // get input from user
+//   let input = prompt(`Please enter a number between ${MIN} and ${MAX}` + hint);
+
+//   // get the integer
+//   number = parseInt(input);
+
+//   // increase the number of guesses
+//   guesses++;
+
+//   // check input number with the secret number provide hint if needed
+//   if (number > secretNumber) {
+//     hint = ", and less than " + number;
+//   } else if (number < secretNumber) {
+//     hint = ", and greater than " + number;
+//   } else if (number == secretNumber) {
+//     alert(`Bravo! you're correct after ${guesses} guess(es).`);
+//   }
+// } while (number != secretNumber);
+
+/*******************Q10 Prints all Even Number From 0 to 100 in JS *******************/
+for (let number = 0; number <= 100; number++) {
+  // console.log("Number =", number);
+  if (number % 2 == 0) {
+    console.log("List of Even Number =", number);
+  }
+  // else console.log("List of odd Number =", number);
+}
