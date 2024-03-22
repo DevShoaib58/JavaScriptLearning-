@@ -152,4 +152,57 @@
 
 // }, 1000)
 // console.log("End")
-/*******************  Function in JS *******************/
+/*******************  Change value Object in JS *******************/
+// let student = {
+//     name: "Shoaib",
+//     age: 26,
+// }
+// student.age = student.age + 1
+// console.log('student: ', student.age);
+// let product = {
+//     product_title: "UniBall Vision Elite",
+//     ink_color: "Black",
+//     rating: 4.2,
+//     price: 270,
+//     sale_price: 260
+// }
+// let a = 10;
+// let b = 5;
+// console.log("a+b=", a + b);//15
+// console.log("a-b=", a - b);//5
+// console.log("a*b=", a * b);//50
+// console.log("a/b=", a / b);//2
+// console.log("a**b=", a ** b);//100000
+// console.log("a%b=", a % b);//0
+// console.log("++a=", ++a);//11
+// console.log("--b=", --b);//4
+
+
+// Array Length in JS
+// let arr = [10, 20, 3]
+// for (index = 0; index < arr.length; index++) {
+//     console.log("Element at index ", index, " is : ", arr[index])
+// }
+// console.log("Length of array is :", arr.length) // Output will be
+// Array using For of Loop
+// let cars = ["BMW", "Toyota", "Suzuki", "Honda"]
+// for (car of cars) {
+//     console.log("Car Name : ", car)
+// }
+// Average of Array using For of Loop
+// let marks = [85, 97, 44, 37, 76, 60]
+// let sum = 0;
+// for (let mark of marks) {
+//     sum = sum + mark
+// }
+// console.log('sum: ', sum);
+// console.log("Average Marks are " + (sum / marks.length))
+// let Products = [100, 500, 6, 550, 22, 45]
+// let i = 0;
+// for (let item of Products) {
+//     // console.log(`This is the Index of Array ${i} Items list from Array ${item}`)
+//     let offer = Products[i] / 10;
+//     Products[i] -= offer;
+//     console.log(`Here is Your new Update List of Products ${Products[i]}`)
+//     i++
+// }

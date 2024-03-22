@@ -33,3 +33,15 @@
 // numbers.sort((a, b) => a - b);
 
 // console.log("Sorting By Lower to Higher", numbers);
+// const array = [1, 2, 3, 5, 7, 8, 9, 4, 5, 154, 4, 34, 49, 64]
+// let show = array.map((x) => {
+//     return (
+//         console.log(x)
+//         // document.write(<h1>{x}</h1>)
+//     )
+// })
+// const array = [1, 2, 3, 5, 7, 8, 9, 4, 5, 154, 4, 34, 49, 64]
+
+// let number_in = array.push(299999)// add as last element of array
+// let number_out = array.pop()//remove last Element of Array
+// console.log(array)

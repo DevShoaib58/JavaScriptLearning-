@@ -7,6 +7,14 @@
   padding: 0px;
 }
 
+body {
+  /* background-image: url("img/javascript_banner_sxve2l.webp"); */
+  background-image: url("img/javascript-default.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  height: 100vh;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -21,7 +29,7 @@ header {
   display: inline-block;
   padding: 10px;
 }
-.nav_
+
 /* =================================================================== */
 /* ========== Home PAGE CSS ========== */
 /* =================================================================== */
