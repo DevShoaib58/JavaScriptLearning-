@@ -45,3 +45,11 @@
 // let number_in = array.push(299999)// add as last element of array
 // let number_out = array.pop()//remove last Element of Array
 // console.log(array)
+// let fa = [2, 4, 8, 6, 20, 54, 44, 13, 16, 11, 55, 11, 71];
+// let result = fa.filter((a) => {
+//   a % 2 === 0;
+// });
+// console.log("These are even Numbers ", result);
+// const list = [1, 2, 3, 4];
+// let result1 = list.filter((el) => el % 2 === 0);
+// console.log(result1);
