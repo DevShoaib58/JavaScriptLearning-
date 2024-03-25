@@ -53,3 +53,11 @@
 // const list = [1, 2, 3, 4];
 // let result1 = list.filter((el) => el % 2 === 0);
 // console.log(result1);
+
+
+const Companies = ["Bloomberg", "Microsoft", "Uber", "Amazon"];
+// Companies.shift()
+// Companies.splice(1, 1)
+// Companies.splice(1, 1, "Ola")
+Companies.push("Facebook");
+console.log('Companies: ', Companies);

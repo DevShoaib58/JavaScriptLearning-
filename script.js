@@ -419,11 +419,11 @@
 //   }
 // } while (number != secretNumber);
 
-/*******************Q10 Prints all Even Number From 0 to 100 in JS *******************/
-for (let number = 0; number <= 100; number++) {
-  // console.log("Number =", number);
-  if (number % 2 == 0) {
-    console.log("List of Even Number =", number);
-  }
-  // else console.log("List of odd Number =", number);
-}
+// /*******************Q10 Prints all Even Number From 0 to 100 in JS *******************/
+// for (let number = 0; number <= 100; number++) {
+//   // console.log("Number =", number);
+//   if (number % 2 == 0) {
+//     console.log("List of Even Number =", number);
+//   }
+//   // else console.log("List of odd Number =", number);
+// }
