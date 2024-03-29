@@ -257,3 +257,83 @@
 // let result2 = fruit.reverse();
 // console.log("Sorting", result1);
 // console.log("Reverse", result2);
+//Working on JS Function
+// function experience() {
+//     console.log("You Current Experience is ", currentYear - working)
+// }
+// let working = prompt("Enter your Working years")
+// working = parseInt(working);
+// let currentYear = 2024;
+// experience();
+// console.log(typeof (working));
+
+
+// function sum(a, b) {
+//     s = a + b;
+//     console.log("Before Return Code");
+//     return s;
+//     //This code will never run
+//     console.log("After Return Code");
+// }
+// console.log(sum(7, 5))
+
+
+// const sum = (x, y) => {
+//     return s = x + y;
+// }
+// sum(6, 8);
+// console.log(s);
+// const countVowels = (str) => {
+//     let count = 0;
+//     for (let char of str) {
+//         // console.log(char)
+//         if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u") {
+//             count++
+
+//         }
+//     }
+//     console.log(count)
+// }
+// countVowels('Hello World!');
+// countVowels('I Love JS');
+// countVowels('why');
+
+
+
+
+// let arr = [1, 2, 5, 7, 8, 7, 5, 54, 6]
+// arr.forEach(function showNumber(val) {
+//     console.log(val)
+// })
+
+
+// let arr = [2, 4, 6, 8, 10]
+// arr.forEach(element => {
+//     // console.log(element);
+//     let Square = element * element
+//     console.log('Square: ', Square);
+// });
+
+// let marks = [22, 44, 55, 88, 99, 20, 90]
+// marks = marks.sort((a, b) => a - b)
+// console.log("Sorted array is : ", marks)
+
+// let student = marks.filter((val) => {
+//     return val > 90
+// }
+// )
+// console.log(student)
+// function say1(message) {
+//     console.log(message);
+// }
+// let result1 = say1('Hello');
+// console.log('Result1:', result1);
+
+
+// function say(message) {
+//     return message
+// }
+// let result = say('Hello');
+// console.log('Result:', result);
+// console.log(document.body);
+// console.dir(document.body);

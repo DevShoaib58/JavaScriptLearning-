@@ -427,3 +427,30 @@
 //   }
 //   // else console.log("List of odd Number =", number);
 // }
+// In Order to work on DOM .I'll work on script.js
+// let heading = document.getElementById('year')
+// console.log('heading: ', heading);
+// let my_head = document.getElementsByClassName("heading")
+// console.dir('my_head: ', my_head);
+// console.log('my_head: ', my_head);
+// let mytag = document.getElementsByTagName('h1')[0].innerHTML;
+// console.log('mytag i am Log : ', mytag);
+// console.dir('mytag i am Dir: ', mytag);
+
+// let mytag = document.getElementsByTagName('h1');
+// console.log('mytag i am Log : ', mytag);
+// console.dir('mytag i am Dir: ', mytag);
+// console.error('mytag i am Dir: ');
+// console.warn('mytag i am Dir: ');
+// console.info('mytag i am Dir: ');
+// console.table('mytag i am Dir: ', mytag);
+// console.time('mytag i am Dir: ', mytag);
+// let query = document.querySelector("h1")
+// console.dir('query: ', query);
+// console.log('query: ', query);
+// let query1 = document.querySelector(".heading")
+// console.log('query1: ', query1);
+// let query2 = document.querySelector("#year")
+// console.log('query2: ', query2);
+// let new1 = document.querySelector(".hello").firstChild
+// console.log('new: ', new1);

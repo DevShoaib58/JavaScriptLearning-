@@ -55,9 +55,9 @@
 // console.log(result1);
 
 
-const Companies = ["Bloomberg", "Microsoft", "Uber", "Amazon"];
+// const Companies = ["Bloomberg", "Microsoft", "Uber", "Amazon"];
 // Companies.shift()
 // Companies.splice(1, 1)
 // Companies.splice(1, 1, "Ola")
-Companies.push("Facebook");
-console.log('Companies: ', Companies);
+// Companies.push("Facebook");
+// console.log('Companies: ', Companies);
