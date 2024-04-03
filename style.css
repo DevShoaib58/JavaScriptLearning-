@@ -26,7 +26,19 @@ header {
   display: inline-block;
   padding: 10px;
 }
-
+.box {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
 /* =================================================================== */
 /* ========== Home PAGE CSS ========== */
 /* =================================================================== */

@@ -454,3 +454,24 @@
 // console.log('query2: ', query2);
 // let new1 = document.querySelector(".hello").firstChild
 // console.log('new: ', new1);
+// let change = document.querySelector("article").innerText;
+// let change1 = document.querySelector("article").innerHTML;
+// console.dir(change);
+// console.dir(change1);
+// console.log('change log: ', change);
+
+// let test = document.querySelector(".my_section")
+// test.innerText = test.innerText + " Bye JS"
+// console.dir(test)
+let divs = document.querySelectorAll(".box")
+console.dir(divs)
+index = 1;
+for (let count of divs) {
+  // console.dir(count)
+  count.innerText = `${count.innerText} ${index}`
+  index++;
+}
+
+// divs[0].innerText = "Hello 1"
+// divs[1].innerText = "Hello 2"
+// divs[2].innerText = "Hello 3"
