@@ -419,11 +419,70 @@
 //   }
 // } while (number != secretNumber);
 
-/*******************Q10 Prints all Even Number From 0 to 100 in JS *******************/
-for (let number = 0; number <= 100; number++) {
-  // console.log("Number =", number);
-  if (number % 2 == 0) {
-    console.log("List of Even Number =", number);
-  }
-  // else console.log("List of odd Number =", number);
-}
+// /*******************Q10 Prints all Even Number From 0 to 100 in JS *******************/
+// for (let number = 0; number <= 100; number++) {
+//   // console.log("Number =", number);
+//   if (number % 2 == 0) {
+//     console.log("List of Even Number =", number);
+//   }
+//   // else console.log("List of odd Number =", number);
+// }
+// In Order to work on DOM .I'll work on script.js
+// let heading = document.getElementById('year')
+// console.log('heading: ', heading);
+// let my_head = document.getElementsByClassName("heading")
+// console.dir('my_head: ', my_head);
+// console.log('my_head: ', my_head);
+// let mytag = document.getElementsByTagName('h1')[0].innerHTML;
+// console.log('mytag i am Log : ', mytag);
+// console.dir('mytag i am Dir: ', mytag);
+
+// let mytag = document.getElementsByTagName('h1');
+// console.log('mytag i am Log : ', mytag);
+// console.dir('mytag i am Dir: ', mytag);
+// console.error('mytag i am Dir: ');
+// console.warn('mytag i am Dir: ');
+// console.info('mytag i am Dir: ');
+// console.table('mytag i am Dir: ', mytag);
+// console.time('mytag i am Dir: ', mytag);
+// let query = document.querySelector("h1")
+// console.dir('query: ', query);
+// console.log('query: ', query);
+// let query1 = document.querySelector(".heading")
+// console.log('query1: ', query1);
+// let query2 = document.querySelector("#year")
+// console.log('query2: ', query2);
+// let new1 = document.querySelector(".hello").firstChild
+// console.log('new: ', new1);
+// let change = document.querySelector("article").innerText;
+// let change1 = document.querySelector("article").innerHTML;
+// console.dir(change);
+// console.dir(change1);
+// console.log('change log: ', change);
+
+// let test = document.querySelector(".my_section")
+// test.innerText = test.innerText + " Bye JS"
+// console.dir(test)
+// let divs = document.querySelectorAll(".box")
+// console.dir(divs)
+// index = 1;
+// for (let count of divs) {
+//   // console.dir(count)
+//   count.innerText = `${count.innerText} ${index}`
+//   index++;
+// }
+
+// divs[0].innerText = "Hello 1"
+// divs[1].innerText = "Hello 2"
+// divs[2].innerText = "Hello 3"
+// let el = document.querySelectorAll("div")[1]
+// console.log('el: ', el);
+// let value = el.getAttribute("class")
+// console.log('value: ', value);
+
+// let el = document.querySelectorAll("div")[1]
+// console.log('el: ', el);
+// // let value = el.getAttribute("class")
+// // console.log('value: ', value);
+// el.style.backgroundColor = "green"
+// el.style.fontSize = "45px"
