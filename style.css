@@ -28,7 +28,7 @@ header {
 }
 .mynew {
   width: 100px;
-  height: 100px;
+  height: 250px;
   display: inline-block;
   margin: 20px;
   text-align: center;
@@ -38,6 +38,13 @@ header {
     rgba(238, 174, 202, 1) 0%,
     rgba(148, 187, 233, 1) 100%
   );
+}
+.demo1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.demo {
+  color: brown;
 }
 /* =================================================================== */
 /* ========== Home PAGE CSS ========== */

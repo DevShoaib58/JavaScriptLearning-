@@ -482,7 +482,29 @@
 
 // let el = document.querySelectorAll("div")[1]
 // console.log('el: ', el);
-// // let value = el.getAttribute("class")
-// // console.log('value: ', value);
-// el.style.backgroundColor = "green"
+// el.style.background = "green"
 // el.style.fontSize = "45px"
+// let value = el.getAttribute("class")
+// console.log('value: ', value);
+// let newBtn = document.createElement("button")
+// newBtn.innerText = "Click me!"
+// console.log('newBtn: ', newBtn);
+// let div = document.querySelectorAll("div")[1]
+// div.append(newBtn)//This will add Element at the End of to node tree
+// div.prepend(newBtn)//This will add Element at the Start of to node tree
+// div.before(newBtn)//This will add Element at the out of the div and at the start of to node tree
+// div.after(newBtn)//This will add Element at the out of the div and at the end  of to node tree
+// let div = document.querySelectorAll("div")[1].childNodes[1].children[2];
+// div.remove()
+
+// let newbtn = document.createElement("button")
+// newbtn.innerText = "Click me"
+// newbtn.style.backgroundColor = "Red";
+// newbtn.style.color = "white"
+// let el = document.querySelectorAll("body")[0]
+// // console.log('el: ', el);
+// el.prepend(newbtn)
+
+
+// let myel = document.querySelector(".demo");
+// myel.classList.add("demo1")
