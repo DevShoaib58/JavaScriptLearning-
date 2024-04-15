@@ -15,6 +15,14 @@ body {
   /* background-size: cover; */
   height: 100vh;
 }
+.dark {
+  background-color: #121212;
+  color: #8b8b8b;
+}
+.light {
+  background-color: #a688fa;
+  color: #121212;
+}
 header {
   display: flex;
   justify-content: space-between;

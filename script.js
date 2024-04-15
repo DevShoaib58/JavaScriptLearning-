@@ -508,3 +508,52 @@
 
 // let myel = document.querySelector(".demo");
 // myel.classList.add("demo1")
+// let mybtn = document.querySelector("#btn1")
+
+// mybtn.addEventListener("click", (ent) => {
+//   console.log("You clicked on button! 1");
+// })
+// mybtn.addEventListener("click", (ent) => {
+//   console.log("You clicked on button! 2");
+// })
+// const handler3 = () => {
+//   console.log("You clicked on button! 3");
+// }
+// mybtn.addEventListener("click", (handler3))
+// mybtn.addEventListener("click", (ent) => {
+//   console.log("You clicked on button! 4");
+// })
+// mybtn.removeEventListener("click", (handler3))
+// change color using JS and css in Js file 
+// let changeMode = document.querySelector("#mode")
+// let currentMode = "light"
+// changeMode.addEventListener("click", () => {
+//   if (currentMode === "light") {
+//     currentMode = "dark"
+//     document.querySelector("body").style.backgroundColor = "#121212"
+//     document.querySelector(".text-center").style.color = "#8b8b8b"
+//   } else {
+//     currentMode = "light"
+//     document.querySelector(".text-center").style.color = "#8b8b8b"
+//     document.querySelector("body").style.backgroundColor = "#a688fa"
+//   }
+//   console.log(currentMode)
+// })
+let changeMode = document.querySelector("#mode")
+let currentMode = "light"
+changeMode.addEventListener("click", () => {
+  if (currentMode === "light") {
+    currentMode = "dark"
+    document.querySelector("body").classList.remove("light");
+    document.querySelector("body").classList.add("dark");
+    document.querySelector(".text-center").classList.add("dark");
+    document.querySelector(".text-center").classList.remove("light");
+  } else {
+    currentMode = "light"
+    document.querySelector(".text-center").classList.remove("dark");
+    document.querySelector(".text-center").classList.add("light");
+    document.querySelector("body").classList.add("light");
+    document.querySelector("body").classList.remove("dark");
+  }
+  console.log(currentMode)
+})
