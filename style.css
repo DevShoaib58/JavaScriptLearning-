@@ -16,11 +16,11 @@ body {
   height: 100vh;
 }
 .dark {
-  background-color: #121212;
+  background-color: #22092c;
   color: #8b8b8b;
 }
 .light {
-  background-color: #a688fa;
+  background-color: #fff;
   color: #121212;
 }
 header {
