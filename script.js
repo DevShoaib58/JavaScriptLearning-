@@ -557,3 +557,82 @@ changeMode.addEventListener("click", () => {
   }
   console.log(currentMode)
 })
+
+
+// const emp = {
+//   name: "John Doe",
+//   age: 30,
+//   calTax() {
+//     console.log("Tax is 10%")
+//   },
+// }
+// const shahid = {
+//   salery: 50000,
+// }
+// shahid.__proto__ = emp;
+// const emp = {
+//   name: "John Doe",
+//   age: 30,
+//   calTax() {
+//     console.log("Tax is 10%")
+//   },
+// }
+// const shahid = {
+//   salery: 50000,
+//   calTax() {
+//     console.log("Tax is 20%")
+//   }
+// }
+// shahid.__proto__ = emp;
+// function sum(a, b) {
+//   console.log(a + b)
+// }
+// function calculate(a, b, sumCallback) {
+//   sumCallback(a, b)
+// }
+// calculate(1, 2, sum)
+// function api() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       console.log("Weather Data");
+//       resolve(200)
+//     }, 2000)
+//   })
+// }
+// async function WeatherData() {
+//   await api(1);
+//   await api(2);
+//   await api(3);
+// }
+// function api() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       console.log("Weather Data");
+//       resolve(200)
+//       reject(400)
+//     }, 2000)
+//   })
+// }
+// (async function () {
+//   await api(1);
+//   await api(2);
+//   await api(3);
+// })();
+// const URL = "https://cat-fact.herokuapp.com/facts"
+// const promise = fetch(URL)
+// console.log(promise)
+const URL = "https://cat-fact.herokuapp.com/facts"
+let myfact = document.querySelector("#fact")
+let mybtn = document.querySelector("#factbtn1")
+const getFacts = async () => {
+  console.log("Getting Facts Data")
+  const response = await fetch(URL);
+  console.log('response: ', response);
+  const data = await response.json();
+  console.log('data: ', data[0].text);
+  myfact.innerText = data[0].text
+}
+mybtn.addEventListener('click', getFacts)
+// getFacts();
+
+
