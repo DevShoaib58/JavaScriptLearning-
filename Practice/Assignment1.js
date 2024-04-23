@@ -100,7 +100,7 @@
 // console.log('Second: ', time2);
 // let required_fuel = distance / per_liter;
 // console.log('required_fuel: ', required_fuel);
-/************* Q11 Write a program that inputs time in minutes in a long variable. The program should compute the number of hours, days, weeks and months separately and display them on console screen. in JS? **************/
+/************* Q12 Write a program that inputs time in minutes in a long variable. The program should compute the number of hours, days, weeks and months separately and display them on console screen. in JS? **************/
 // let timeinMinutes = parseInt(prompt("Enter Long Length of Time "))
 // const minutesinhour = 60;
 // const hoursinday = 24;
@@ -114,3 +114,27 @@
 // console.log(`The ${timeinMinutes} Minutes in Days are ${days} `)
 // console.log(`The ${timeinMinutes} Minutes in Week are ${week} `)
 // console.log(`The ${timeinMinutes} Minutes in Months are ${months} `)
+/************* Q13 A car can travel 22.6km in 1 liter fuel. Write a program that inputs petrol in liters and display how much distance the car can be cover. Use suitable prompt message to illustrate workflow.  in JS? **************/
+// let Milage_in_1_liter = 22.6;
+// let value = parseInt(prompt("Enter your Petrol in Litter "))
+// let total_distance = Milage_in_1_liter * value;
+// console.log('total_distance: ', total_distance);
+/************* Q14 screen. in JS? **************/
+// const check = (a = "a", z = "z") => {
+//     let alphabet = "abcdefghijklmnopqrstuvwxyz".split("")
+//     return (alphabet.slice(alphabet.indexOf(a), alphabet.indexOf(z) + 1))
+// }
+// console.log('check: ', check('c', "h"));
+let InputLetter = prompt("Enter You Letter here").toUpperCase();
+if (InputLetter.length != 1 || /[A-Z]/.test(InputLetter)) {
+    console.log("Enter Valid Single Letter Or Alphabet")
+} else {
+    let nextLetters = ""
+    for (i = 1; i <= 5; i++) {
+        const nextLetters = InputLetter.charCodeAt(0) + i;
+        const nextLetters = String.fromCharCode(nextLetters);
+        nextLetters += nextLetters + ""
+    }
+}
+console.log('InputLetter: ', InputLetter);
+
