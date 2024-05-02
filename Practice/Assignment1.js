@@ -36,14 +36,11 @@
 /************* Q5 Write a program that prompt to input a five digits integer number and display its digits in reverse order. For example the user enter a five digits number as 12345. The program should display it as 54321 on output screen. in JS? **************/
 
 // let Num = prompt("Enter Number ");
-// if (Num != 0 || isNaN(Num)) {
-//     alert("Please Enter 5 Digit Number ")
-// } else {
-//     function reverseSTR(Num) {
-//         return Num.split("").reverse().join("")
-//     }
-//     console.log(reverseSTR(Num));
+// function reverseSTR(Num) {
+//     return Num.split("").reverse().join("")
 // }
+// console.log(reverseSTR(Num));
+
 /************* Q6 Write a program that input weight in pounds and convert it into equivalent kilograms. in JS? **************/
 // let WeightPound = parseInt(prompt("Enter Weight in Pound : "));
 // let WeightKG = WeightPound / 2.2046
@@ -125,16 +122,25 @@
 //     return (alphabet.slice(alphabet.indexOf(a), alphabet.indexOf(z) + 1))
 // }
 // console.log('check: ', check('c', "h"));
-let InputLetter = prompt("Enter You Letter here").toUpperCase();
-if (InputLetter.length != 1 || /[A-Z]/.test(InputLetter)) {
-    console.log("Enter Valid Single Letter Or Alphabet")
-} else {
-    let nextLetters = ""
-    for (i = 1; i <= 5; i++) {
-        const nextLetters = InputLetter.charCodeAt(0) + i;
-        const nextLetters = String.fromCharCode(nextLetters);
-        nextLetters += nextLetters + ""
-    }
-}
-console.log('InputLetter: ', InputLetter);
+// let InputLetter = prompt("Enter You Letter here").toUpperCase();
+// if (InputLetter.length != 1 || /[A-Z]/.test(InputLetter)) {
+//     console.log("Enter Valid Single Letter Or Alphabet")
+// } else {
+//     let nextLetters = "";
+//     for (i = 1; i <= 5; i++) {
+//         const nextCharCode  = InputLetter.charCodeAt(0) + i;
+//         const nextLetters = String.fromCharCode(nextLetters);
+//         nextLetters += nextLetters + ""
+//     }
+// }
+// console.log('InputLetter: ', InputLetter);
 
+/************* Q15 Write a program that asks the user to type the price without tax of one kilogram of tomatoes, the number of kilograms you want to buy and the tax in percent units. The program computes and displays the total price including taxes in JS? **************/
+// let tax = parseInt(prompt("Enter the amount of TAX"))
+// let price = parseInt(prompt("Enter the Price of Tomatoes"))
+// let quantity = parseInt(prompt("Enter the Number of Kg you want"))
+// let totalTax = (tax / 100) * price
+// let PriceWithTax = (totalTax + price) * quantity
+// console.log('PriceWithTax: ', PriceWithTax);
+
+/************* Q16 screen. in JS? **************/

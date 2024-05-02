@@ -1,0 +1,139 @@
+Assignment#1
+Expression Evaluation
+
+Content Coverage:
+Data types, Operators, Expression Evaluation & User Input
+
+Assignment Submission Procedure:
+1) Take the printout of each program, make a title page and submit in a folder. 
+2) For each program you must have printout of 
+problem statement
+source code
+screen shoot of the console output window
+3) You will keep the soft copy with you, (do not email me). During viva you will be asked to run your program that you must have with you in soft form. 
+
+Programming Style Requirements:
+Please indent your program properly
+Include comments in you program to explain the critical/important variables or complex/different logic that you have used in your program
+Always use self-explanatory names like names of file, variables and functions etc. Try to avoid names like a, b, c for variables.
+Always test your program on all types of valid and invalid input.
+Print appropriate messages for when asking for input from user and other situations.
+Try to include error handling code in your program to handle invalid inputs properly.
+
+Instructions:
+Please note down the following rules very carefully.
+Write a program for each of the given lab task. 
+Cheating and copying cases will be dealt strictly.
+A viva will be conducted from each individual student in the first class of the next week. Bring your laptops for viva in my office.
+This assignment is to be solved by each individual, so please do not share your code with others otherwise both student (one who copies and the other who provides copy) will be given ZERO. Negative marks may also be given if the same code copy is found from multiple students.
+No late submissions will be accepted.
+If any student fail to appear in the viva on the given date and time, he will be awarded ZERO in this assignment even though he has made all the programs correctly.  So, remember the viva is necessary to prove that a student has done all the work himself/herself and he/she has complete understanding of his own code. No excuse in this regard will be accepted after wards.
+
+
+Lab Tasks
+
+Lab Task –5.1
+Write a program that calculates financial interest on some principal amount. It inputs principal amount, rate of interest and number of years. Finally the program should calculate the interest amount and display using suitable output prompt messages to illustrate your screen outputs.   
+
+
+Lab Task 5.2
+Write a program that input a character and display its ASCII code. Use suitable prompt messages to illustrate your working.
+
+Lab Task 5.3
+Write a program that asks the user to type two integers A and B and exchange the value of A and B
+
+Lab Task5.4
+Write a program that inputs the coordinate values of two points x, y into some variables. The program should automatically calculate and display the distance between these two points using distance formula as given below:
+
+Distance =
+Lab Task 5.5
+Write a program that prompt to input a five digits integer number and display its digits in reverse order. For example the user enter a five digits number as 12345. The program should display it as 54321 on output screen.
+
+Lab Task 5.6
+Write a program that input weight in pounds and convert it into equivalent kilograms.
+(Hint: Kg = p/2.2046)
+
+Lab Task 5.7
+Write a program that input temperature in Centigrade and convert it into Fahrenheit.
+(Hint: C = 5/9 (F 32))
+
+Lab Task 5.8
+Write a program that input your age in years. It converts it into months, weeks, days, hours and minutes. Use suitable prompt messages on output screen.
+For Example:
+Enter your Age (in years): 18
+Months Lived = 216
+Weeks Lived = ?
+Days Lived = ?
+Hours Lived = ?
+Minutes Lived = ? 
+
+
+Lab Task 5.9
+Write a program that input height, weight, and length of a cubic object. The program should calculate the volume of that cubic object and display using appropriate prompt messages. 
+	(Hint: Volume of cube V = length * weight * height)
+
+Lab Task 5.10
+Write a program that inputs the radius of a circle. The program should calculate three things of that circle and display on the output screen. 
+Diameter 
+Area 
+Circumference 
+Lab Task 5.11
+Write a program that inputs the distance (in km) between two cities, speed of the vehicle and distance covered in one liter of fuel. The program should calculate the time required to reach the destination. It also tells the user that how much fuel is required to reach the destination.
+
+Lab Task 5.12
+Write a program that inputs time in minutes in a long variable. The program should compute the number of hours, days, weeks and months separately and display them on console screen. 
+
+Lab Task 5.13
+A car can travel 22.6km in 1 liter fuel. Write a program that inputs petrol in liters and display how much distance the car can be cover. Use suitable prompt message to illustrate workflow. 
+
+Lab Task 5.14
+Write a program that input an alphabet and the program should display the next five characters on output screen.
+For Example:
+Enter an alphabet = C
+Next five characters = D E F G H
+
+Lab Task 5.15
+Write a program that asks the user to type the price without tax of one kilogram of tomatoes, the number of kilograms you want to buy and the tax in percent units. The program computes and displays the total price including taxes
+
+Lab Task 5.16
+Write a program that asks the user to type the width and the height of a rectangle and then the area and the length of diagonal for that rectangle. 
+
+Lab Task 5.17
+Write a program that asks the user it input the amount in dollars and current currency rate. The program should convert it into rupees using given currency rate. 
+Lab Task 5.18
+Write a program that asks the user to input a 4 digits integer number. The program should calculate the sum of these four digits and display them on the computer screen. For example, the input a number 1234 the result should be 10.
+
+Lab Task 5.19
+Write a program that input a number from the user and display its square and cube.
+
+Lab Task 5.20
+Write a program that takes input in three variables a, b and c. The program should find the root r1 and r2 of quadratic equation using following formula:
+
+
+
+
+Lab Task 5.21
+Write a program in C++, which takes radius from the user and calculate the area of sphere i.e. 
+Area=4λ
+	(Hint λ = 3.1416 Area = 4 * 3.1416 * r * r)
+
+Lab Task 5.22
+Find velocity from given distance and time. Then calculate acceleration from the velocity and time using following formula
+
+Velocity = distance/time
+Acceleration= velocity/time
+
+(Note: Distance and Time are to be input by the user)
+
+Lab Task 5.23
+When a brick is dropped from a tower, it falls faster and faster until it hits the earth. The speed v is given by v = (½)* (g *t2). Here v is the speed in feet per second, t is the time in seconds, and g is 32.174. Write a program which will take number of seconds as input and will display the speed. Program should run like this:									
+Number of seconds: 5.4
+Speed of the brick: 469.092 feet per second
+
+Lab Task 5.24
+
+The harmonic mean of two numbers is given by: H = 2 / (1/X + 1/Y ). Write a program that accepts two numbers from user and writes out both the usual average (the arithmetic mean) and the harmonic mean. Program should run like this:
+X: 12
+Y: 16
+Arithmetic mean: 14.0
+Harmonic mean: 13.714285714285715
